@@ -13,3 +13,4 @@ src-git lienol https://github.com/xiaorouji/openwrt-package
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/kenzok8/small
 src-git mypackages https://github.com/siropboy/mypackages
+src-git jerryk https://github.com/jerrykuku/openwrt-package
