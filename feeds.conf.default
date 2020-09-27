@@ -8,5 +8,7 @@ src-git freifunk https://github.com/freifunk/openwrt-packages.git
 #src-git management https://github.com/openwrt-management/packages.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
-src-git liuran001_packages https://github.com/liuran001/openwrt-packages
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+src-git small https://github.com/kenzok8/small
 src-git mypackages https://github.com/siropboy/mypackages
+src-git jerryk https://github.com/jerrykuku/openwrt-package
