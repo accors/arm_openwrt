@@ -12,8 +12,5 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.31.223/g' package/base-files/files/bin/config_generate
-#Add customize packages
-git clone https://github.com/jerrykuku/node-request.git package/lean/node-request
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+#Modify default name
+sed -i 's/DISTRIB_REVISION='R20.9.15'/DISTRIB_REVISION='R20.9.15-O1'/g' package/lean/default-settings/files/zzz-default-settings
