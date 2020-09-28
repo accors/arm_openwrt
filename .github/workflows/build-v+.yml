@@ -18,7 +18,7 @@ on:
     branches:
       - main
     paths:
-      - 'v+.config'
+      - '.config'
   #schedule:
     #- cron: 10 10 * * *
   watch:
