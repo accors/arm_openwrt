@@ -87,6 +87,9 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
+        cd package
+        git clone https://github.com/destan19/OpenAppFilter.git
+        cd
         
     - name: SSH connection to Actions
       uses: P3TERX/debugger-action@main
