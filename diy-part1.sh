@@ -16,5 +16,7 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #Add useful softwares
-git clone https://github.com/XiaYi1002/luci-app-e-wool package/lean
-git clone https://github.com/lisaac/luci-app-dockerman package/lean
+cd package/lean
+git clone https://github.com/XiaYi1002/luci-app-e-wool
+git clone https://github.com/lisaac/luci-app-dockerman
+cd
